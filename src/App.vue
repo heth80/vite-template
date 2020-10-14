@@ -11,6 +11,13 @@ export default {
 }
 </script>
 
-<style>
-  
+<style lang="scss">
+body {
+  #app, a, a:active {
+    color: #000;
+  }
+}
+.router-link-active  {
+  color: red;
+}
 </style>
